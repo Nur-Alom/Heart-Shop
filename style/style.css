@@ -1,0 +1,56 @@
+/* Font style */
+body{
+    font-family: 'Raleway', sans-serif;
+    /* background-color: yellow; */
+    margin: 0%;
+}
+
+/*---------------------
+     Header Section 
+---------------------*/
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container-nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #0a0a0a;
+    padding: 1% 0% 1% 0%;
+}
+.nav-item{
+    align-items: center;
+}
+.nav-item a{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.nav-item img{
+    width: 30px;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.nav-link{
+    margin-right: 45px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: orange;
+}
+.button{
+    background-color: #f3cf05;
+    font-weight: 700;
+    padding: 5px 13px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*-------------------
+    Main Section 
+-------------------*/
+
