@@ -1,9 +1,14 @@
-/* Font style */
+/*---------------
+   Font style 
+---------------*/
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
     margin: 0%;
 }
+
 
 /*---------------------
      Header Section 
@@ -68,11 +73,16 @@ nav{
     border-radius: 10px;
 }
 
+
 /*------------------------
     Main Section Start
 ------------------------*/
 
-/* All Section */
+
+/*--------------------
+     All Section 
+--------------------*/
+
 
 .heading{
     border-radius: 12px;
@@ -110,12 +120,14 @@ article img{
     padding: 10px;
 }
 
-/* Last Section */
+/*-----------------------
+    About Us Section 
+-----------------------*/
+
 
 .about-us{
     display: flex;
     justify-content: space-between;
-    /* justify-content: center; */
     align-items: center;
     background-color: orange;
     margin-top: 10%;
@@ -169,4 +181,67 @@ article img{
 }
 #socal-icon{
     margin-right: 10px;
+}
+
+
+/*--------------------
+     Media Query 
+--------------------*/
+
+
+/*----------------------
+     Mobile Devices 
+----------------------*/
+
+@media only screen and (max-Width: 576px) {
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        margin: 0%;
+    }
+
+    /*------------------
+        Navbar Style 
+    ------------------*/
+
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .nav-item img{
+        width: 30px;
+    }
+
+    /*---------------------
+         Main Section 
+    ---------------------*/
+
+    .item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+
+    article img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    /*----------------------
+        About us Section 
+    ----------------------*/
+
+    .about-us{
+        flex-direction: column;
+    }
+
+    .subscrib-img{
+        width: 100%;
+        margin-top: 25%;
+    }
+
+
 }
